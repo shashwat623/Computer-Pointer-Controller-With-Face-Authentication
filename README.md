@@ -47,6 +47,10 @@ to align the faces and the face gallery to match faces found on a video
 frame with the ones in the gallery. If a match is found, the application then gives permission to the user to use the cursor control features. Then, the processing results are
 visualized and displayed on the screen or written to the output file.
 
+![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/images/facial_landmarks.jpg?raw=true)
+![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/images/face_landmarks.jpg?raw=true)
+
+
 ### Step 2: Human Control Interface( cursor control) part
 
 This project is deeply centered around predicting the facial landmarks of a given face. We can accomplish a lot of things using these landmarks. From detecting eye-blinks in a video to predicting emotions of the subject. The applications, outcomes and possibilities of facial landmarks are immense and intriguing.
@@ -58,9 +62,13 @@ Using these predicted landmarks of the face, we can build appropriate features t
 
 You will see that Eye-Aspect-Ratio is the simplest and the most elegant feature that takes good advantage of the facial landmarks. EAR helps us in detecting blinks and winks etc. You can see that the EAR value drops whenever the eye closes. We can train a simple classifier to detect the drop. However, a normal if condition works just fine.
 
+![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/images/1_BlsrFzC8H6i3xv695Ja6vg.png?raw=true)
+
 #### Mouth-Aspect-Ratio (MAR)
 
 Similar to EAR, MAR value goes up when the mouth opens. Similar intuitions hold true for this metric as well.
+
+![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/images/Eye_Aspect_Ratio.jpg?raw=true)
 
 # Creating a gallery for face recognition
 
