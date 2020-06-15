@@ -27,8 +27,8 @@ I have used the following models for the detection and reidentification part, wh
 
 I have used the following models for the facial gestures/movement part: 
 
-- **Dlib’s shape_predictor_68_face_landmarks to predict 68 2D facial key points for face gesture evaluation.**
-- **Intel’s action-recognition-0001-encoder and action-recognition-0001-decoder to predict other body actions.**
+* Dlib’s `shape_predictor_68_face_landmarks` to predict 68 2D facial key points for face gesture evaluation.
+* Intel’s `action-recognition-0001-encoder` and `action-recognition-0001-decoder` to predict other body actions.
 
 For more information about the pre-trained models, refer to the [model documentation](../../../models/intel/index.md).
 For more information about the pre-trained models, refer to the [model documentation](../../../models/intel/index.md).
