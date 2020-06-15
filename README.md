@@ -17,12 +17,18 @@ The following gestures/movements can be used to mimic the functions of the curso
 - **Right eye wink for right click**
 - **Moving your head around for controlling the cursor**
 - **Opening your mouth to activate/deactivate input mode**
+- **Covering left eye with hand for double left click**
 
-I have used the following models, which were available in the Intel open model zoo. I have included all the models with the repo inside the **models** folder.
+I have used the following models for the detection and reidentification part, which were available in the Intel open model zoo. I have included all the models with the repo inside the **models** folder.
 
 * `face-detection-retail-0004` and `face-detection-adas-0001`, to detect faces and predict their bounding boxes
-* `landmarks-regression-retail-0009` and `shape_predictor_68_face_landmarks` to predict face keypoints;
+* `landmarks-regression-retail-0009` to predict face keypoints;
 * `face-reidentification-retail-0095`, to recognize persons.
+
+I have used the following models for the facial gestures/movement part: 
+
+- **Dlib’s shape_predictor_68_face_landmarks to predict 68 2D facial key points for face gesture evaluation.**
+- **Intel’s action-recognition-0001-encoder and action-recognition-0001-decoder to predict other body actions.**
 
 For more information about the pre-trained models, refer to the [model documentation](../../../models/intel/index.md).
 For more information about the pre-trained models, refer to the [model documentation](../../../models/intel/index.md).
