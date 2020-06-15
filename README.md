@@ -23,7 +23,7 @@ I have used the following models for the detection and reidentification part, wh
 
 * `face-detection-retail-0004` and `face-detection-adas-0001`, to detect faces and predict their bounding boxes
 * `landmarks-regression-retail-0009` to predict face keypoints;
-* `face-reidentification-retail-0095`, to recognize persons.
+* `face-reidentification-retail-0095`, to reidentify people.
 
 I have used the following models for the facial gestures/movement part: 
 
