@@ -12,7 +12,7 @@ faces on videos, their keypoints (aka "landmarks"),
 and recognize persons using the provided faces database (the gallery), after which the Human Computer Inteface functions are executed for cursor control and actions.
 
 The following gestures/movements can be used to mimic the functions of the cursor:
-- **Squinting your eyes to activate/deactivate scrolling mode**
+- **Squeezing eyes to activate/deactivate scrolling mode**
 - **Left eye wink for left click**
 - **Right eye wink for right click**
 - **Moving your head around for controlling the cursor**
@@ -33,9 +33,10 @@ I have used the following models for the facial gestures/movement part:
 For more information about the pre-trained models, refer to the [model documentation](../../../models/intel/index.md).
 For more information about the pre-trained models, refer to the [model documentation](../../../models/intel/index.md).
 
-# Working Example
-
+# Demo GIF
 ![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/Demo_GIF_.gif)
+
+Click [here](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/Demo_Video.mp4) for the full working video of the application.
 
 # How it works
 
