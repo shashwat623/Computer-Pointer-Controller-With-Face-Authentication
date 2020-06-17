@@ -38,7 +38,7 @@ For more information about the pre-trained models, refer to the [model documenta
 
 Click [here](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/Demo_Video.mp4) for the full working video of the application.
 
-# How it works
+# Working Procedure
 
 ### Step 1: Face Detection, Landmark Detection and Face Reidentification
 
