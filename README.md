@@ -69,13 +69,9 @@ Using these predicted landmarks of the face, we can build appropriate features t
 
 You will see that Eye-Aspect-Ratio is the simplest and the most elegant feature that takes good advantage of the facial landmarks. EAR helps us in detecting blinks and winks etc. You can see that the EAR value drops whenever the eye closes. We can train a simple classifier to detect the drop. However, a normal if condition works just fine.
 
-![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/images/1_BlsrFzC8H6i3xv695Ja6vg.png?raw=true)
-
 #### Mouth-Aspect-Ratio (MAR)
 
 Similar to EAR, MAR value goes up when the mouth opens. Similar intuitions hold true for this metric as well.
-
-![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/images/Eye_Aspect_Ratio.jpg?raw=true)
 
 # Creating a gallery for face recognition
 
