@@ -35,7 +35,7 @@ For more information about the pre-trained models, refer to the [model documenta
 
 # Working Example
 
-![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/Demo_Video.mp4)
+![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/Demo_GIF_.gif)
 
 # How it works
 
