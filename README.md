@@ -67,7 +67,7 @@ Using these predicted landmarks of the face, we can build appropriate features t
 
 #### Eye-Aspect-Ratio (EAR)
 
-You will see that Eye-Aspect-Ratio is the simplest and the most elegant feature that takes good advantage of the facial landmarks. EAR helps us in detecting blinks and winks etc. You can see that the EAR value drops whenever the eye closes. We can train a simple classifier to detect the drop. However, a normal if condition works just fine.
+The Eye-Aspect-Ratio is the simplest and the most elegant feature that takes good advantage of the facial landmarks. EAR helps us in detecting blinks and winks etc. The EAR value drops whenever the eye closes. We can train a simple classifier to detect the drop.
 
 #### Mouth-Aspect-Ratio (MAR)
 
