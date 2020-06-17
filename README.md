@@ -34,8 +34,8 @@ For more information about the pre-trained models, refer to the [model documenta
 For more information about the pre-trained models, refer to the [model documentation](../../../models/intel/index.md).
 
 # Working Example
-...........
 
+![](https://github.com/shashwat623/Computer-Pointer-Controller-With-Face-Authentication/blob/master/Demo_Video.mp4)
 
 # How it works
 
